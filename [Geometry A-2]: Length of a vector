@@ -1,0 +1,5 @@
+#https://www.codewars.com/kata/554dc2b88fbafd2e95000125
+def vector_length(vector):
+    import math
+    result = math.sqrt((vector[0][0]-vector[1][0])**2 + (vector[0][1]-vector[1][1])**2)
+    return round(result, 7)
